@@ -1,0 +1,15 @@
+.images {
+  background-image: url('./../assets/images/bg-top.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: inherit;
+  height: 100vh;
+}
+
+.footer-images {
+  background-image: url('./../assets/images/bg-bottom.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-x: left;
+  height: 100vh;
+}
