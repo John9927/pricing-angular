@@ -69,7 +69,8 @@
   left: -11px;
   right: 9px;
   bottom: 1px;
-  background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  background: rgb(163,168,240);
+  background: linear-gradient(90deg, rgba(163,168,240,1) 0%, rgba(105,111,221,1) 100%);
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -87,7 +88,8 @@
 }
 
 input:checked + .slider {
-  background-color: hsl(236, 72%, 79%)
+  background: rgb(160,255,0);
+  background: linear-gradient(90deg, rgba(160,255,0,1) 0%, rgba(58,213,159,1) 100%);
 }
 
 input:focus + .slider {
@@ -143,4 +145,92 @@ input:checked + .slider:before {
   height: 445px;
   width: 345px;
   border-radius: 8px;
+}
+
+.card1__container__label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card1__label {
+  display: flex;
+  justify-content: center;
+  color: hsl(233, 13%, 49%);
+  font-weight: bold;
+  font-size: 19px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+
+}
+.white {
+  color: white !important;
+}
+.white__background {
+  background: white !important;
+}
+
+.space {
+  margin-top: 55px;
+}
+.space__down {
+  margin-bottom: 30px;
+}
+.card1__price {
+  display: flex;
+  justify-content: center;
+  color: hsl(232, 13%, 33%);
+  font-size: 70px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.card__button {
+  background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  width: 85%;
+  height: 40px;
+  border-radius: 4px;
+  margin: 0 auto;
+  border: 0;
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.card__button:focus {
+  outline: none;
+}
+
+.card__button:hover {
+  background: transparent;
+  border: 2px solid hsl(237, 63%, 64%);
+  color: black;
+}
+
+.hover__background {
+  color: #7076DF;
+}
+.hover__background:hover {
+  background: #7076DF !important;
+  border: 2px solid white;
+}
+
+.blue {
+  color: hsl(236, 72%, 79%) !important;
+}
+
+hr {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  color: black;
+}
+
+.card1__item {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  color: hsl(233, 13%, 49%);
+  font-weight: bold;
 }
