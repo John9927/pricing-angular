@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "switch-angular": {
+      "hosting": {
+        "pricing-angular": [
+          "switch-angular"
+        ]
+      }
+    }
+  }
+}
