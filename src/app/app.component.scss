@@ -234,3 +234,10 @@ hr {
   color: hsl(233, 13%, 49%);
   font-weight: bold;
 }
+
+
+@media screen and (max-width:375px) {
+  .container__card {
+    flex-direction: column;
+  }
+}
