@@ -235,9 +235,12 @@ hr {
   font-weight: bold;
 }
 
-
 @media screen and (max-width:375px) {
   .container__card {
     flex-direction: column;
+    width: 90%;
+  }
+  .card2 {
+    width: 100%;
   }
 }
